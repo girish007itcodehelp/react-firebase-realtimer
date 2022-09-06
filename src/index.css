@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app{
+  background: #f7f7f7;
+}
+.outsider{
+    /* background: purple; */
+    padding: 15px;
+    font-weight: 600;
+    color: #2a387cf2;
+    padding: 15;
+    background: #f7f7f7;
+    height: 100vh;
+    overflow-y: auto;
+
+}
+.card{
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 11px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: wheat;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  width: 100%;
+}
+.timer{
+  color: #1d00ff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.flex{
+  display: flex;
+
+}
+.btn.btn-primary{
+  background: #1d00ff;
+  color: white;
+  font-size: 14px;
+  border-radius: 11px;
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  width: max-content;
+}
